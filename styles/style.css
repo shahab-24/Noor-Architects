@@ -156,6 +156,7 @@ body {
   justify-content: center;
   align-items: center;
   margin: 50px auto;
+ 
 }
 
 .sponsors_img {
@@ -165,6 +166,7 @@ body {
   justify-content: center;
   align-items: center;
   margin: 0 auto;
+
   filter: grayscale(100%);
   max-width: 550px;
 }
@@ -245,6 +247,8 @@ height: 150px; */
 }
 
 .footer_content {
+  margin: 0 auto;
+  margin-top: 50px;
   border-radius: 8px;
   padding: 30px;
   background: rgb(255, 244, 231);
@@ -269,11 +273,14 @@ height: 150px; */
     flex-direction: column;
   }
   .teams_container {
-    flex-direction: column;
+    flex-direction: column-reverse;
+  
   }
   .teams_image {
     grid-template-columns: repeat(1, 1fr);
+    
     margin: 0 auto;
+    margin-top: 50px;
   }
   .card_container {
     grid-template-columns: repeat(1, 1fr);
@@ -317,4 +324,10 @@ height: 150px; */
   .Experience_btn {
     display: none;
   }
+  .footer_content{
+  
+    margin: 0 auto;
+    text-align: center;
+  }
+
 }
